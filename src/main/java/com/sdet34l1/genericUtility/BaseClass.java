@@ -80,6 +80,7 @@ public class BaseClass {
 	}
 /**
  * In this annotation we do login action
+ * before method
  */
 
 	@BeforeMethod(groups = "baseclass")
