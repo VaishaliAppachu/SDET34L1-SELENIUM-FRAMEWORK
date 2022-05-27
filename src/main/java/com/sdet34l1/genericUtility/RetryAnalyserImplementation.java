@@ -5,7 +5,7 @@ import org.testng.ITestResult;
 /**
  * This method is used to rerun the failed TestScripts
  * @author VAISHALI
- *
+ * 
  */
 public class RetryAnalyserImplementation implements IRetryAnalyzer{
 	int count=0;

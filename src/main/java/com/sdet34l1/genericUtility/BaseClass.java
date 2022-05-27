@@ -20,6 +20,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * This class contains implementation of all basic configuration annotations
  * @author VAISHALI
  * This base class includes all before and after method
+ * login actions
  */
 public class BaseClass {
 	String username;
