@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">234,429</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.vtiger.contactsTest.CreateorganisationandcontactnameTest</td><td><a href="#m0">createorganisationandcontactnameTest</a></td><td rowspan="1">1653389338350</td><td rowspan="1">12578</td></tr><tr class="failedodd"><td rowspan="1">com.vtiger.organisationTest.CreateOrganisationTest</td><td><a href="#m1">CreateOrganisationTest1</a></td><td rowspan="1">1653389263404</td><td rowspan="1">7787</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.vtiger.campaignTest.CreateCampaignWithProductnameTest</td><td><a href="#m2">createCampaignWithProductname</a></td><td rowspan="1">1653389448879</td><td rowspan="1">36735</td></tr><tr class="passedodd"><td rowspan="1">com.vtiger.campaignTest.CreatecampaignTest</td><td><a href="#m3">createcampaignTest</a></td><td rowspan="1">1653389310258</td><td rowspan="1">17212</td></tr><tr class="passedeven"><td rowspan="1">com.vtiger.contactsTest.CreateContactsTest</td><td><a href="#m4">fetchDataofContactsTest</a></td><td rowspan="1">1653389418626</td><td rowspan="1">19028</td></tr><tr class="passedodd"><td rowspan="1">com.vtiger.documents.CreatedocumentsTest</td><td><a href="#m5">createdocumentsFrameTest</a></td><td rowspan="1">1653389362263</td><td rowspan="1">19903</td></tr><tr class="passedeven"><td rowspan="1">com.vtiger.organisationTest.CreateOrgwithIndustryandTypeTest</td><td><a href="#m6">createOrgwithIndustryandType</a></td><td rowspan="1">1653389282689</td><td rowspan="1">16867</td></tr><tr class="passedodd"><td rowspan="1">com.vtiger.productsTest.CreateProductsTest</td><td><a href="#m7">createProductsTest</a></td><td rowspan="1">1653389393331</td><td rowspan="1">14434</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.vtiger.contactsTest.CreateorganisationandcontactnameTest#createorganisationandcontactnameTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Organization Name Already Exists!}
+  (Session info: chrome=101.0.4951.67): Organization Name Already Exists!
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1UFPC69&apos;, ip: &apos;192.168.43.50&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\VAISHALI\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58338}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 57e6a526a5ca5ba556ff779fc0b81b8e
+*** Element info: {Using=xpath, value=//span[@class=&apos;dvHeaderText&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at com.sdet34l1.genericUtility.WebDriverOffice.WaitvisibleText(WebDriverOffice.java:294)
+	at com.vtiger.ObjectRepository.CreateNewOrgInfoPage.saveBtnToOrg(CreateNewOrgInfoPage.java:61)
+	at com.vtiger.contactsTest.CreateorganisationandcontactnameTest.createorganisationandcontactnameTest(CreateorganisationandcontactnameTest.java:77)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.vtiger.organisationTest.CreateOrganisationTest#CreateOrganisationTest1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at com.vtiger.organisationTest.CreateOrganisationTest.CreateOrganisationTest1(CreateOrganisationTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.vtiger.campaignTest.CreateCampaignWithProductnameTest#createCampaignWithProductname</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">campaign and product name has been created</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.vtiger.campaignTest.CreatecampaignTest#createcampaignTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">campaign name has been created</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.vtiger.contactsTest.CreateContactsTest#fetchDataofContactsTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">contacts has been created</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.vtiger.documents.CreatedocumentsTest#createdocumentsFrameTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">all done</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.vtiger.organisationTest.CreateOrgwithIndustryandTypeTest#createOrgwithIndustryandType</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Organization created with indusrty and type</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.vtiger.productsTest.CreateProductsTest#createProductsTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">product created</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
